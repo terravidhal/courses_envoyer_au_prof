@@ -1,0 +1,24 @@
+.CourseTable{
+   
+}
+.CourseTable table{
+   margin-top: 30px;
+   border-bottom: 1px solid;
+}
+.CourseTable table thead tr th{
+   border: 1px solid;
+   border-bottom: 0px solid;
+}
+.CourseTable table tbody tr td{
+   border: 1px solid;
+   border-bottom: 0px solid;
+}
+.CourseTable table tbody tr td:nth-child(1),
+.CourseTable table tbody tr td:nth-child(2),
+.CourseTable table tbody tr td:nth-child(3){
+   border-top: 0px solid;
+}
+.CourseTable tr > td.actions{
+   vertical-align: middle;
+}
+

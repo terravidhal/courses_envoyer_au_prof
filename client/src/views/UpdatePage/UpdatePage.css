@@ -1,0 +1,21 @@
+.UpdatePage {
+    padding: 50px;
+}
+.UpdatePage .page-top{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.UpdatePage .page-top h1{
+  
+}
+.UpdatePage .page-top a{
+  
+}
+.UpdatePage h4{
+  color: gray;
+}
+.UpdatePage .page-content{
+    border: 1px solid;
+    margin-top: 20px;
+}

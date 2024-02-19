@@ -1,0 +1,54 @@
+.CourseForm {
+   padding: 20px;
+}
+.CourseForm form{
+ display: flex;
+}
+.CourseForm form p{
+ width: 70%;
+}
+.CourseForm .form-left{
+ flex: 1;
+}
+.CourseForm .form-right{
+ flex: 1;
+}
+.CourseForm .field{
+  margin-bottom: 10px;
+}
+.CourseForm input[type="text"],.CourseForm input[type="number"],
+.CourseForm select{
+  width: 70%;
+  margin: 5px 0;
+  outline: none;
+}
+.CourseForm input[type="submit"], .CourseForm button[type="submit"]{
+  margin: 5px 0;
+  width: 70%;
+ padding: 8px 0;
+ background-color: gray;
+ outline: none;
+ border: 0px;
+ font-weight: bold;
+ color: white;
+ font-size: 1rem;
+ border-radius: 5px;
+}
+.CourseForm .validate_form{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.CourseForm .submit_btn.active{
+  background-color: rgb(45, 80, 237);;
+  color: white;
+  opacity: 1;
+  cursor: pointer;
+}
+.CourseForm .submit_btn{
+   background-color: red;
+   color: white;
+   opacity: 0.5;
+   cursor: not-allowed;
+}
+

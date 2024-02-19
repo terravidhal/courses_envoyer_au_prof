@@ -1,0 +1,21 @@
+.CreatePage {
+    padding: 50px;
+}
+.CreatePage .page-top{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.CreatePage .page-top h1{
+  
+}
+.CreatePage .page-top a{
+  
+}
+.CreatePage h4{
+  color: gray;
+}
+.CreatePage .page-content{
+    border: 1px solid;
+    margin-top: 20px;
+}

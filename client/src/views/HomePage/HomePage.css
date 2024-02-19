@@ -1,0 +1,17 @@
+.HomePage {
+    margin: 50px auto;
+    width: 70%;
+}
+.HomePage .page-top{
+  display: flex;
+  justify-content: space-between;
+}
+.HomePage .page-top h1{
+  
+}
+.HomePage .page-top a{
+  
+}
+.HomePage h4{
+  color: gray;
+}
